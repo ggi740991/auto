@@ -165,7 +165,7 @@ local patrolPoints = {
 local currentPointIndex = 1
 local autoFarmConnection = nil
 
--- 산타 찾기 함수
+
 local function findNearestSanta()
     local mobs = Workspace:FindFirstChild("Mobs") or Workspace
     local closest, bestDist = nil, math.huge
